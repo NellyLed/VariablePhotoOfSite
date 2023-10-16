@@ -1,0 +1,53 @@
+/*
+https://denis-creative.com/animirovannaya-svetyashhayasya-pri-navedenii-knopka-s-pomoshhyu-css/
+
+https://www.youtube.com/watch?v=mUvYGUYMvKo
+
+https://www.youtube.com/watch?v=KVeMsy4qCdg
+
+https://www.geeksforgeeks.org/paint-app-using-reactjs/
+
+https://idg.net.ua/blog/devyat-prostyh-primerov-css3-perehodov
+*/
+.App {
+    /*  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.freepik.com%2Ffree-photos-vectors%2F%25D0%25BA%25D1%2580%25D0%25B0%25D1%2581%25D0%25B8%25D0%25B2%25D1%258B%25D0%25B9-%25D1%2584%25D0%25BE%25D0%25BD&psig=AOvVaw2d9b_YtHnla40_4y8xRxtN&ust=1694557221038000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNCi_9rLo4EDFQAAAAAdAAAAABAJ');
+   */ /*
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(6, 5, 82, 1) 19%,
+        rgba(167, 215, 143, 0.9837184873949579) 23%,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(26, 41, 95, 1) 43%,
+        rgba(123, 7, 148, 1) 50%,
+        rgba(41, 69, 72, 1) 72%,
+        rgba(6, 68, 160, 1) 86%,
+        rgba(0, 212, 255, 1) 100%
+    );
+    */
+}
+/*
+.block_main {
+    background: #ffffff;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    align-items: stretch;
+    display:flex;
+    align-items:stretch;
+    justify-content: center;
+}*/
+.Active {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*   flex-direction: row;
+    flex-wrap: wrap;*/
+    border-radius: 8px;
+    border: 4px solid #ecf76a;
+    margin: 20px 10px;
+    padding: 5px;
+    background: #fbffd1;
+}

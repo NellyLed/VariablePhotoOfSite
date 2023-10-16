@@ -1,0 +1,301 @@
+.menu {
+    height: 67%;
+    background-color: rgba(255, 255, 247, 0.943);
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    width: 18.5%;
+    margin: 0% 2%;
+    box-shadow: 0 4px 5px gray; /*смещение тени по х -0 пикселя, по y-4,размытость 5, цвет серый*/
+    z-index: 1;
+}
+
+.url1 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/pencil_2.png');
+    cursor: pointer;
+}
+.url2 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/brush.png');
+    cursor: pointer;
+}
+.url3 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/line.png');
+    cursor: pointer;
+}
+.url4 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/curve.png');
+    cursor: pointer;
+}
+.url5 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/eraser.png');
+    cursor: pointer;
+}
+
+.url6 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/rect.png');
+    cursor: pointer;
+}
+.url7 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/circle.png');
+    cursor: pointer;
+}
+.menu_2 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    z-index: 3;
+}
+.url8 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/triagle.png');
+    cursor: pointer;
+}
+
+.url9 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/poligon.png');
+    cursor: pointer;
+}
+.url10 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../../image/heart.png');
+    cursor: pointer;
+}
+.url11 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/star.png');
+    cursor: pointer;
+}
+.menu_3 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    z-index: 7;
+    margin-top: 125px;
+    margin-left: 40px;
+}
+.line {
+    padding: 0;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 17%;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 8px 8px -8px #333;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    z-index: 5;
+}
+#color_casting {
+    border-radius: 6px;
+    border-color: #1f1209;
+    margin-left: 10px;
+    cursor: auto;
+}
+
+.menu_4 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 40px;
+    z-index: 5;
+}
+#line_width {
+    border-radius: 6px;
+    border-color: #1f1209;
+    margin-left: 10px;
+    cursor: auto;
+}
+
+.menu_5 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40px;
+    z-index: 5;
+}
+
+#stroke_color {
+    margin-left: 10px;
+    border-radius: 6px;
+    border-color: #1f1209;
+    cursor: auto;
+}
+
+.menu_6 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 40px;
+    z-index: 9;
+}
+.url12 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/undo.png');
+    cursor: pointer;
+}
+.url13 {
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/redo.png');
+    cursor: pointer;
+}
+.url14 {
+    padding: 4px;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../image/save.png');
+    cursor: pointer;
+}
+.line_2 {
+    padding: 0;
+    height: 40px;
+    margin-top: 210px;
+    margin-left: 40px;
+    width: 17%;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 8px 8px -8px #333;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    z-index: 5;
+}
+.menu_7 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 40px;
+    z-index: 11;
+}
+.menu_8 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 40px;
+    z-index: 13;
+}

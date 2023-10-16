@@ -1,0 +1,53 @@
+.isActive {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    /*   text-transform: uppercase; прописные буквы*/
+    text-decoration: none; /*нет стандартного подчеркивания */
+    font-family: sans-serif;
+    box-sizing: border-box; /*изменение привычных ширины и высоты блока*/
+    background: linear-gradient(90deg, #0d5530, #62f997, #e8ae2f, #e4f806);
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.isActive:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+.isActive:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #0d5530, #62f997, #e8ae2f, #e4f806);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.isActive:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}

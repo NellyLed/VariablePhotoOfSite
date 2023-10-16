@@ -1,0 +1,7 @@
+.canvas_space {
+    background: radial-gradient(
+        ellipse at center,
+        rgba(8, 25, 42, 1) 19%,
+        rgba(1, 4, 6, 1) 100%
+    );
+}
